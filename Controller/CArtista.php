@@ -1,5 +1,6 @@
 <?php
 
+
 /**
  * @access public
  * @package Controller
@@ -99,7 +100,7 @@ class CArtista {
 		$schede_db=$fscheda->search(array(array('nome_artista','=',$nome_artista)),"data");	
 		
 		$accepted=array();
-		if($schede_db){//l'artista esiste nel db - rimando scheda artista (con possibilità di modifica)				
+		if($schede_db){//l'artista esiste nel db - rimando scheda artista (con possibilitï¿½ di modifica)				
 			
 			$id=null;
 			$i=-1;
